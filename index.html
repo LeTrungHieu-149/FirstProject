@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="wraper">
-        <header class="header">
+        <header class="header" id="top">
             <nav class="nav">
                 <label for="menu" class="menu__button">
                     <i class="fa fa-bars"></i>
@@ -19,21 +19,21 @@
                 <input type="checkbox" id="menu" style="display: none;" class="menu__button-inp">
                 <div class="menu__bg"></div>
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#aboutus" class="nav__link">About us</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                     <li class="nav__item"><a href="index.html" class="nav__link"><img src="images/hd-logo.png" alt="logo" class="nav__logo"></a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#shop" class="nav__link">Shop</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <div class="feature">
-            <div class="feature__header">
+            <div class="feature__header" id="aboutus">
                 <img src="images/icon1.png" alt="icon1" class="feature__img-top">
                 <h2 class="feature__heading">A new generation of vintage bike</h2>
                 <p class="feature__header-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             </div>
-            <ul class="feature__list">
+            <ul class="feature__list" id="work">
                 <li class="feature__item">
                     <div class="feature__item-img">
                         <img src="images/img1.jpg" alt="img1" class="img__bg">
@@ -101,7 +101,7 @@
                 <li class="tweet__pagi-item"></li>
             </ul>
         </div>
-        <div class="shop">
+        <div class="shop" id="shop">
             <div class="shop__block">
                 <div class="shop__block-item">
                     <div class="shop__item">
@@ -173,7 +173,7 @@
                 </div>
             </div>
         </div>
-        <div class="discover">
+        <div class="discover" id="contact">
             <button class="discover__button">Discover the shop</button>
         </div>
         <div class="email">
@@ -183,6 +183,9 @@
                 <input type="email" placeholder="enter your email..." name="email" class="email__content-text">
                 <button class="email__button">go</button>
             </div>
+        </div>
+        <div class="back">
+            <a href="#top"><i class="back-icon fas fa-arrow-circle-up"></i></a>
         </div>
     </div>
 </body>

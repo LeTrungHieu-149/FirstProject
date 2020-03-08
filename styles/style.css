@@ -40,6 +40,7 @@ button {
 .wraper {
     max-width:160rem;
     margin: 0 auto;
+    position: relative;
 }
 /* header */
 .header {
@@ -536,4 +537,15 @@ button {
         padding-left:2rem;
         padding-right: 2rem;
     }   
+}
+
+.back {
+    position: absolute;
+    bottom:-7rem;
+    right: 5rem;
+}
+
+.back-icon {
+    font-size:5rem;
+    color:var(--gray-text-color);
 }
